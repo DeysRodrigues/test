@@ -1,0 +1,38 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+section {
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query para telas grandes */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;}
+    
+}
+
+/* Media query para telas muito pequenas (smartphones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
